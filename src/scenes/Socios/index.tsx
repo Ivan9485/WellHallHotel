@@ -1,4 +1,4 @@
-import React, { useEffect }  from "react"
+
 import { SocioTipo } from "@/shared/types"
 import { MoonIcon, StarIcon, UserPlusIcon, WifiIcon,ArrowUpCircleIcon } from "@heroicons/react/24/solid"
 import Socio from "./Socio"
@@ -9,7 +9,6 @@ import { motion } from "framer-motion"
 
 const socios: Array<SocioTipo> =[
   {
-    click: 1,
     icon1: <UserPlusIcon className="w-6 h-6" />,
     title1: "Silver Elite",
     description1: "10 noches por año",
@@ -24,7 +23,6 @@ const socios: Array<SocioTipo> =[
     description4: "Disfruta de acceso gratuito a Internet en tu habitación cuando reserves a través de cualquiera de nuestros sitios web o aplicaciones.",
   },
   {
-    click: 2,
     icon1: <UserPlusIcon className="w-6 h-6" />,
     title1: "Gold Elite",
     description1: "15 noches por año",
@@ -39,7 +37,6 @@ const socios: Array<SocioTipo> =[
     description4: "Disfruta de acceso gratuito a Internet en tu habitación y un delicioso desayuno gratuito cuando reserves a través de cualquiera de nuestros sitios web o aplicaciones.",
   },
   {
-    click: 3,
     icon1: <UserPlusIcon className="w-6 h-6" />,
     title1: "Platinum Elite",
     description1: "20 noches por año",
@@ -54,7 +51,6 @@ const socios: Array<SocioTipo> =[
     description4: "Disfruta de acceso gratuito a Internet en tu habitación, un delicioso desayuno gratuito y estacionamiento gratuito cuando reserves a través de cualquiera de nuestros sitios web o aplicaciones.",
   },
   {
-    click: 4,
     icon1: <UserPlusIcon className="w-6 h-6" />,
     title1: "Titanium Elite",
     description1: "30 noches por año",
@@ -69,7 +65,6 @@ const socios: Array<SocioTipo> =[
     description4: "Disfruta de acceso gratuito a Internet en tu habitación, un delicioso desayuno gratuito, estacionamiento gratuito y servicio a la habitación cuando reserves a través de cualquiera de nuestros sitios web o aplicaciones.",
   },
   {
-    click: 5,
     icon1: <UserPlusIcon className="w-6 h-6" />,
     title1: "Ambassador Elite",
     description1: "50 noches por año",

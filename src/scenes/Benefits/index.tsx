@@ -126,7 +126,7 @@ const Benefits = ({setSelectedPage}: Props) => {
         inputProps={{
           placeholder: "Destino",
           value: value,
-          onChange: (_, { newValue, method }) => {
+          onChange: (_, { newValue }) => {
             setValue(newValue);
           }
         }}

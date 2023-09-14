@@ -21,7 +21,6 @@ export interface ClassType{
 }
 
 export interface SocioTipo{
-  click:number;
   icon1:JSX.Element;
   title1:string;
   description1:string;

@@ -1,7 +1,7 @@
 
 
 type Props = {
-  click: number;
+
   icon1:JSX.Element;
   title1:string;
   description1:string;
@@ -16,7 +16,7 @@ type Props = {
   description4:string;
 }
 
-const Socio = ({click,icon1,title1,description1,icon2,title2,description2,icon3,title3,description3,icon4,title4,description4}: Props) => {
+const Socio = ({icon1,title1,description1,icon2,title2,description2,icon3,title3,description3,icon4,title4,description4}: Props) => {
 
 
 
