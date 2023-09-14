@@ -102,12 +102,12 @@ const Socios = ({setSelectedPage}: Props) => {
           <h1 className="font-bold">Membresias WellHall+</h1>
         </div>
         {/* Tabs */}
-        <div className="border-b-2 flex space-x-4 mt-2">
+        <div className="border-b-2 flex space-x-4 mt-2  ">
           {socios.map((socio, index) => (
             <p key={index}>
               <button
                 className={`${
-                  activeButton === index ? "border-b-2 border-black" : ""
+                  activeButton === index ? "  border-b-2 border-black" : ""
                 }`}
                 onClick={() => handleButtonClick(index)}
               >

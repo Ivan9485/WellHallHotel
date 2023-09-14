@@ -63,7 +63,7 @@ const OurClasses = ({setSelectedPage}: Props) => {
             <p className="py-5">Planea tu próximo viaje y encuentra los mejores consejos y guías especializadas por WellHall</p>
           </div>
         </motion.div>
-        <div className="px-16 mt-10 h-[600px] w-full overflow-x-auto overflow-y-hidden">
+        <div className="px-4 md:px-16 mt-10 h-[600px] w-full overflow-x-auto overflow-y-hidden">
         <ul className="w-[2200px] whitespace-nowrap flex">
         {classes.map((item:ClassType,index)=>(
           <Class
