@@ -120,8 +120,8 @@ const Socios = ({setSelectedPage}: Props) => {
         {/* Screen */}
         <div className="w-full h-full rounded-b-2xl bg-white items-center md:justify-between gap-8 mt-5">
           {socios
-            .filter((socio, index) => activeButton === index)
-            .map((socio) => (
+  .filter((_, index) => activeButton !== null && activeButton === index)
+  .map((socio) => (
               <Socio
                 key={socio.title1}
                 icon1={socio.icon1}
