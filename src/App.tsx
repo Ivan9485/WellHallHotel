@@ -40,7 +40,7 @@ function App() {
       <OurClasses setSelectedPage={setSelectedPage}/>
       <Socios setSelectedPage={setSelectedPage} />
       <ContactUs setSelectedPage={setSelectedPage}/>
-      <Footer/>
+      <Footer setSelectedPage={setSelectedPage}/>
     </div>
   )
 }
