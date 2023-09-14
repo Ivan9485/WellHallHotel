@@ -1,8 +1,7 @@
-import useMediaQuery from "@/hooks/useMediaQuery";
-import ActionButton from "@/shared/ActionButton";
+
 import {SelectedPage} from "@/shared/types"
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import { motion } from "framer-motion";
+
 import logo from "@/assets/logo.svg"
 import NombreHotel from "@/assets/NombreHotel3.svg"
 
@@ -14,7 +13,6 @@ const Home = ({
   setSelectedPage
 }: Props) => {
 
-  const isAboveMediumScreens = useMediaQuery("(min-width:980px)")
 
   return (
     <section id="home" className="gap-16 h-[850px] top-0  bg-white">
