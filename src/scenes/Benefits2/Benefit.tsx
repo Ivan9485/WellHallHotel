@@ -20,7 +20,7 @@ const Benefit = ({icon,title,description, setSelectedPage}: Props) => {
     // TARJETA
     <motion.div 
     variants={childVariant}
-    className="flex flex-col mt-5 rounded-md border-2 border-gray-100 px-5 py-8 text-center bg-">
+    className="flex flex-col mt-5 rounded-md border-2 border-gray-100 px-5 py-8 text-center w-[430px] h-full ">
         <div className="mb-4 flex justify-center">
 
         <div className="rounded-full border-2 border-gray-100  p-4">

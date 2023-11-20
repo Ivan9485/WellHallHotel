@@ -98,7 +98,7 @@ const Benefits = ({setSelectedPage}: Props) => {
   }
 
   return (
-    <section id="hotels" className="pt-16 h-screen w-full relative bg-white"
+    <section id="hotels" className="pt-16 h-full w-full relative bg-white"
     >
     <motion.div onViewportEnter={()=> setSelectedPage(SelectedPage.Hotels)}
     >
@@ -107,7 +107,7 @@ const Benefits = ({setSelectedPage}: Props) => {
   <div className="w-full h-[850px] bg-[url('./assets/Location1.jpg')] bg-cover bg-center mb-10 flex flex-col items-center justify-center">
 
     {/* Search div */}
-  <div className="absolute bg-white top-32 h-[150px] lg:h-[50px] rounded-md flex w-[300px]  lg:w-[900px] lg:flex-row flex-col items-center  justify-center">
+  <div className="absolute  top-32 h-[150px] lg:h-[50px] rounded-md flex w-[300px]  lg:w-[900px] lg:flex-row flex-col items-center  justify-center">
     
     <div className="rounded-sm  flex  items-center justify-center">
     {/* className="h-full md:h-1/2" type="destino" placeholder="Destino" */}
