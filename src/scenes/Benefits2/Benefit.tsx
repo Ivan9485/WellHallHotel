@@ -17,9 +17,10 @@ const childVariant = {
 
 const Benefit = ({icon,title,description, setSelectedPage}: Props) => {
   return (
+    // TARJETA
     <motion.div 
     variants={childVariant}
-    className="md:w-1/3 mt-5 rounded-md border-2 border-gray-100 px-5 py-16 text-center">
+    className="flex flex-col mt-5 rounded-md border-2 border-gray-100 px-5 py-8 text-center bg-">
         <div className="mb-4 flex justify-center">
 
         <div className="rounded-full border-2 border-gray-100  p-4">

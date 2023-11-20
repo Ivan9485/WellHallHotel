@@ -98,20 +98,21 @@ const Benefits = ({setSelectedPage}: Props) => {
   }
 
   return (
-    <section id="hotels" className="pt-16 h-full w-full  bg-white"
+    <section id="hotels" className="pt-16 h-screen w-full relative bg-white"
     >
     <motion.div onViewportEnter={()=> setSelectedPage(SelectedPage.Hotels)}
     >
       
-      {/* GRAPHICS AND DESCRIPTION */}
-      <div className="items-center justify-between  bg-white flex flex-col  ">
-      
-        {/* GRAPHICS */}
-  <div className="w-full h-[850px] bg-[url('./assets/Location1.jpg')] bg-cover bg-center mb-10 flex flex-col items-center">
-  <div className=" mt-20 bg-white md:w-3/4 md:h-20 h-44 rounded-md flex md:flex-row flex-col items-center xs:flex xs:flex-col justify-center ">
-    <div className="md:w-1/3 md:h-full w-full  flex items-center justify-center">
+        {/* Background img */}
+  <div className="w-full h-[850px] bg-[url('./assets/Location1.jpg')] bg-cover bg-center mb-10 flex flex-col items-center justify-center">
+
+    {/* Search div */}
+  <div className="absolute bg-white top-32 h-[150px] lg:h-[50px] rounded-md flex w-[300px]  lg:w-[900px] lg:flex-row flex-col items-center  justify-center">
+    
+    <div className="rounded-sm  flex  items-center justify-center">
     {/* className="h-full md:h-1/2" type="destino" placeholder="Destino" */}
-    <AutoSuggest
+    
+    <AutoSuggest 
         suggestions={suggestions}
         onSuggestionsClearRequested={() => setSuggestions([])}
         onSuggestionsFetchRequested={({ value }) => {
@@ -133,22 +134,19 @@ const Benefits = ({setSelectedPage}: Props) => {
         highlightFirstSuggestion={true}
       />
     </div>
-    <div className="md:w-1/3 h-1/3 flex items-center justify-center py-4">
-      <DatePickerWithRange className="h-[50px] md:h-[59px]"/>
+    <div className="h-[50px]">
+      <DatePickerWithRange className="h-[50px] flex"/>
     </div>
-    <button className="bg-black rounded-md md:h-2/3 md:w-[200px] h-1/3  text-white w-full flex items-center justify-center ">
+    <button className="bg-black rounded-md w-full h-[50px]  text-white  flex items-center justify-center hover:bg-  ">
       Buscar Hotel
     </button>
   </div>
+
   <h1 className="mt-16 z-10 "><img src={liberate} alt="Libera Tu Pasion Por Viajar" /></h1>
   
 
 </div>
 
-
-
-
-      </div>
 
       
 

@@ -33,9 +33,7 @@ type Props = {
 const Benefits2 = ({setSelectedPage}: Props) => {
   return (
     
-    <section id="benefits2" className="py-8 h-full w-full  bg-white">
-    <div className="  mx-16">
-    <div className="h-full mt-10">
+    <section id="benefits2" className="pt-32 h-full w-full  bg-white">
   <motion.div 
   initial="hidden" whileInView="visible"
   viewport={{once:true,amount:0.5}}
@@ -49,14 +47,14 @@ const Benefits2 = ({setSelectedPage}: Props) => {
   <p className="mt-10 text-sm w-5/6">
   Descubre experiencias de bienestar que te llevarán a tus momentos más relajantes. Ya sea junto a la playa o en las montañas, desconéctate en un hotel spa wellness de WellHall y experimenta cómo puedes liberar tanto tu cuerpo como tu mente. </p>
   </motion.div>
-  </div>
+  
   {/* BENEFITS */}
   <motion.div 
   initial="visible"
   whileInView="visible"
   viewport={{once:true, amount:0.5}}
   variants={container}
-  className="flex flex-col md:flex-row items-center justify-between gap-8 mt-5">
+  className="container flex flex-col md:flex-row items-center bg-black  justify-between gap-8 mt-5 flex-wrap">
   {benefits.map((benefit:BenefitType)=> (
     <Benefit 
     key={benefit.title}
@@ -67,7 +65,7 @@ const Benefits2 = ({setSelectedPage}: Props) => {
     />
   ))}
   </motion.div>
-  </div>
+  
   </section>
   )
 }

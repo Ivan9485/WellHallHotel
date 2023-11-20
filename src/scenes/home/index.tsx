@@ -15,11 +15,11 @@ const Home = ({
 
 
   return (
-    <section id="home" className="gap-16 h-[850px] top-0  bg-white">
+    <section id="home" className="h-screen w-full top-0  bg-white">
   
         {/* MAIN HEADER */}
-        <div className="w-full h-[850px] bg-[url('./assets/piscina.jpg')] bg-cover bg-center absolute">
-          <div className="absolute inset-0 bg-black opacity-70 text-"></div>
+        <div className="w-full h-screen bg-[url('./assets/piscina.jpg')] bg-cover bg-center ">
+          <div className="absolute w-full h-full bg-black opacity-70"></div>
           <div className="flex items-center justify-center h-full">
             <div className="z-10 text-center">
           
