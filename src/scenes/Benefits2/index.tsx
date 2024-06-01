@@ -7,15 +7,15 @@ import HText from "@/shared/HText";
 const benefits: Array<BenefitType> = [{
   icon: <GlobeAltIcon className="h-6 w-6"/>,
   title: "Locaciones Internacionales",
-  description: "En WellHall, te llevamos a un viaje único por destinos internacionales de ensueño. Desde las playas de arena blanca del Caribe hasta las majestuosas montañas de los Alpes suizos, nuestros hoteles te esperan en todo el mundo. Explora la belleza de la diversidad cultural y natural mientras disfrutas de la comodidad y el lujo que ofrecemos en cada rincón del planeta."
+  description: "En WellHall, te llevamos a un viaje único por destinos internacionales de ensueño. Desde las playas de arena blanca del Caribe hasta las majestuosas montañas de los Alpes suizos, nuestros hoteles te esperan en todo el mundo. "
 },{
   icon: <TrophyIcon className="h-6 w-6"/>,
   title: "Spas & Resorts Premiados",
-  description: "En WellHall, creemos en el poder de la relajación y el rejuvenecimiento. Nuestros resorts y spas de bienestar te ofrecen un refugio sereno donde puedes escapar del estrés diario y reconectar contigo mismo. Disfruta de lujosas instalaciones, tratamientos rejuvenecedores y experiencias únicas que te ayudarán a encontrar la paz interior y el equilibrio."
+  description: "En WellHall, creemos en el poder de la relajación y el rejuvenecimiento. Nuestros resorts y spas de bienestar te ofrecen un refugio sereno donde puedes escapar del estrés diario y reconectar contigo mismo. "
 },{
   icon: <UserPlusIcon className="h-6 w-6"/>,
   title: "Beneficios a Socios",
-  description: "Valoramos a nuestros socios y les recompensamos con ventajas exclusivas. Únete a nuestro programa de membresía y disfruta de tarifas preferenciales, upgrades de habitación, acceso a eventos especiales y mucho más. Tu lealtad es importante para nosotros, y queremos asegurarnos de que cada estancia con nosotros sea extraordinaria."
+  description: "Valoramos a nuestros socios y les recompensamos con ventajas exclusivas. Únete a nuestro programa de membresía y disfruta de tarifas preferenciales, upgrades de habitación, acceso a eventos especiales y mucho más. "
 },
 ];
 
