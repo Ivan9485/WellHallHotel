@@ -33,7 +33,7 @@ type Props = {
 const Benefits2 = ({setSelectedPage}: Props) => {
   return (
     
-    <section id="benefits2" className="px-16 pt-6 h-full w-full  bg-white">
+    <section id="benefits2" className="px-16 h-full w-full py-16">
   <motion.div 
   initial="hidden" whileInView="visible"
   viewport={{once:true,amount:0.5}}
@@ -53,7 +53,7 @@ const Benefits2 = ({setSelectedPage}: Props) => {
   whileInView="visible"
   viewport={{once:true, amount:0.5}}
   variants={container}
-  className=" flex flex-col lg:flex-row items-center   justify-between gap-8 mt-5 w-full">
+  className=" flex flex-col lg:flex-row items-center   justify-between gap-8 mt-5 w-full ">
   {benefits.map((benefit:BenefitType)=> (
     <Benefit 
     key={benefit.title}
